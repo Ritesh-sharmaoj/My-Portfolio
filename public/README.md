@@ -1,5 +1,6 @@
-Place the resume PDF here as:
+Place the resume PDF here as either:
 
 Ritesh-Sharma-Resume.pdf
+resume.pdf
 
-The portfolio buttons already point to /Ritesh-Sharma-Resume.pdf.
+The portfolio buttons point to /resume.pdf and download it as Ritesh-Sharma-Resume.pdf.

@@ -28,6 +28,8 @@ const navLinks = [
   { label: "Contact", href: "#contact" },
 ];
 
+const resumeUrl = "/resume.pdf";
+
 const skills = [
   { title: "Manual Testing", icon: TestTubeDiagonal },
   { title: "UI Testing", icon: Layout },
@@ -119,7 +121,8 @@ function Navbar({ menuOpen, setMenuOpen, closeMenu }) {
             </a>
           ))}
           <a
-            href="/Ritesh-Sharma-Resume.pdf"
+            href={resumeUrl}
+            download="Ritesh-Sharma-Resume.pdf"
             className="inline-flex items-center gap-2 rounded-full bg-slate-950 px-4 py-2 text-sm font-semibold text-white transition hover:bg-teal-700"
           >
             <Download size={16} />
@@ -194,7 +197,8 @@ function Hero() {
               Contact Me
             </a>
             <a
-              href="/Ritesh-Sharma-Resume.pdf"
+              href={resumeUrl}
+              download="Ritesh-Sharma-Resume.pdf"
               className="inline-flex items-center justify-center gap-2 rounded-full border border-slate-900/10 bg-slate-950 px-6 py-3 text-sm font-bold text-white transition hover:-translate-y-0.5 hover:bg-slate-800"
             >
               <Download size={17} />
